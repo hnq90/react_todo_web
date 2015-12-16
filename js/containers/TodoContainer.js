@@ -22,7 +22,9 @@ class _TodoLayout extends Component {
         return false
       }
       return (
-        <Loader type="line-scale-party" />
+        <div className="loader-container">
+          <Loader type="line-scale-party" />
+        </div>
       );
     }
 
